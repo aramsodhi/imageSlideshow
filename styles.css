@@ -1,0 +1,43 @@
+body {
+	margin: 0px;
+	padding: 0px;
+	background-color: #19191a;
+	font-family: Roboto;
+}
+
+#slideshow {
+	display: block;
+	position: absolute;
+	border: none;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 640px;
+	height: 480px;
+	background-size: cover;
+	background-repeat: none;
+	border-radius: 10px;
+	overflow: hidden;
+}
+
+#previous, #next {
+	width: 20px;
+	height: 480px;
+	opacity: 0.6;
+	font-size: 24px;
+	border: none;
+	outline: none;
+	transition: 0.5s all;
+}
+
+#previous:hover, #next:hover {
+	opacity: 0.8
+}
+
+#previous {
+	float: left;
+}
+
+#next {
+	float: right;
+}
